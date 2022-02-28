@@ -7,7 +7,7 @@ export class EditUserDto {
 
   @IsString()
   @IsOptional()
-  fistName?: string;
+  firstName?: string;
 
   @IsString()
   @IsOptional()
